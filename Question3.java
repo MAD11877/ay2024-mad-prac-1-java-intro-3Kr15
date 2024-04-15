@@ -9,8 +9,13 @@ public class Question3
      * 
      * Hint: in.nextInt() to read integer
      */
-     
+    
     Scanner in = new Scanner(System.in);
+    System.out.println("Enter an integer: ");
+    int num = in.nextInt();
+
+    int multiplied = num * num;
+    System.out.println("The square of " + num + " is " + multiplied);
     
   }
 }
