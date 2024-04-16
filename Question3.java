@@ -9,8 +9,11 @@ public class Question3
      * 
      * Hint: in.nextInt() to read integer
      */
-     
+    
     Scanner in = new Scanner(System.in);
+    int num = in.nextInt();
+    int multiplied = num * num;
+    System.out.println(multiplied);
     
   }
 }
